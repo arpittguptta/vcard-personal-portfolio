@@ -1223,7 +1223,41 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+/*-----------------------------------*\
+  #Download
+\*-----------------------------------*/
+.form-btns{
+  position: relative;
+  width: 70%;
+  background: var(--border-gradient-onyx);
+  color: white; /*var(--orange-yellow-crayola);*/
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 1px;
+  border-radius: 5px;
+  font-size: small; 
+  text-transform: capitalize;
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+  transition: var(--transition-1);
+}
 
+.form-btns::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--onyx); /*var(--bg-gradient-jet);*/
+  border-radius: inherit;
+  z-index: -1;
+  transition: var(--transition-1);
+}
+
+.form-btns ion-icon { font-size: 10px; }
+
+.form-btns:hover { background: var(--bg-gradient-yellow-1); }
 
 /*-----------------------------------*\
   #RESPONSIVE
