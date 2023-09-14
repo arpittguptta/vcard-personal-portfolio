@@ -433,7 +433,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
+  : 15px;
   padding-bottom: 4px;
   padding-left: 7px;
 }
@@ -1235,7 +1235,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   justify-content: center;
   margin: auto;
   align-items: center;
-  gap: 4px;
+  gap: 3px;
   padding: 1px 1px;
   border-radius: 5px;
   font-size: x-small; 
