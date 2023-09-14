@@ -1238,7 +1238,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   gap: 4px;
   padding: 1px 1px;
   border-radius: 5px;
-  font-size: small; 
+  font-size: x-small; 
   text-transform: capitalize;
   box-shadow: var(--shadow-3);
   z-index: 1;
